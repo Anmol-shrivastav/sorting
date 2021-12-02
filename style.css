@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+}
+.header {
+    height: 40%;
+    width: 100%;
+}
+.container .header h2 {
+    margin: 0;
+    padding-top: 1%; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.form-group{
+    padding-top: 8px;
+}
+.form-group label{
+    font-size: 20px;
+}
+.form-control{
+    width: 30%;
+    text-align: center;
+    height: 35px;
+    font-size: 19px;
+}
+.btn-group{
+    padding: 10px;
+}
+.sort-btn{
+    padding: 8px 18px;
+    border-radius: 40%;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #FBFBFB;
+    
+}
+.sort-btn:hover{
+    background-color: #00B74A;
+    color: white;
+    border: 2px solid #262626;
+}
